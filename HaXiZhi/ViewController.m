@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "NSString+Algorithm.h"
 
 @interface ViewController ()
 
@@ -16,6 +17,9 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    NSString *ceshiString = @"ceshi--中文";
+    NSLog(@"哈希值算法 == %@  ----- %@",ceshiString,[NSString sha1:ceshiString]);
+    NSLog(@"MD5      == %@  ----- %@",ceshiString,[NSString md5:ceshiString]);
     // Do any additional setup after loading the view, typically from a nib.
 }
 

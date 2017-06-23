@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7408ABB11EFCA91B00015DF7 /* NSString+Algorithm.m in Sources */ = {isa = PBXBuildFile; fileRef = 7408ABAF1EFCA91B00015DF7 /* NSString+Algorithm.m */; };
 		74E0C9B61D3718F90056F7FD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 74E0C9B51D3718F90056F7FD /* main.m */; };
 		74E0C9B91D3718F90056F7FD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 74E0C9B81D3718F90056F7FD /* AppDelegate.m */; };
 		74E0C9BC1D3718F90056F7FD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 74E0C9BB1D3718F90056F7FD /* ViewController.m */; };
@@ -35,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7408ABAF1EFCA91B00015DF7 /* NSString+Algorithm.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Algorithm.m"; sourceTree = "<group>"; };
+		7408ABB01EFCA91B00015DF7 /* NSString+Algorithm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Algorithm.h"; sourceTree = "<group>"; };
 		74E0C9B11D3718F90056F7FD /* HaXiZhi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HaXiZhi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		74E0C9B51D3718F90056F7FD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		74E0C9B71D3718F90056F7FD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -105,6 +108,8 @@
 				74E0C9B81D3718F90056F7FD /* AppDelegate.m */,
 				74E0C9BA1D3718F90056F7FD /* ViewController.h */,
 				74E0C9BB1D3718F90056F7FD /* ViewController.m */,
+				7408ABAF1EFCA91B00015DF7 /* NSString+Algorithm.m */,
+				7408ABB01EFCA91B00015DF7 /* NSString+Algorithm.h */,
 				74E0C9BD1D3718F90056F7FD /* Main.storyboard */,
 				74E0C9C01D3718F90056F7FD /* Assets.xcassets */,
 				74E0C9C21D3718F90056F7FD /* LaunchScreen.storyboard */,
@@ -271,6 +276,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				74E0C9BC1D3718F90056F7FD /* ViewController.m in Sources */,
+				7408ABB11EFCA91B00015DF7 /* NSString+Algorithm.m in Sources */,
 				74E0C9B91D3718F90056F7FD /* AppDelegate.m in Sources */,
 				74E0C9B61D3718F90056F7FD /* main.m in Sources */,
 			);
@@ -498,6 +504,7 @@
 				74E0C9E01D3718F90056F7FD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		74E0C9E11D3718F90056F7FD /* Build configuration list for PBXNativeTarget "HaXiZhiTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +513,7 @@
 				74E0C9E31D3718F90056F7FD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		74E0C9E41D3718F90056F7FD /* Build configuration list for PBXNativeTarget "HaXiZhiUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +522,7 @@
 				74E0C9E61D3718F90056F7FD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
